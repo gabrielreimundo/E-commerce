@@ -32,8 +32,25 @@
     </header>
 
     <section class="home">
+        <div class="main">
+            <div class="row">
+                <li>
+                    <img src="imgs/main1.png" onclick="slider1()" alt="">
+                </li>
+            </div>
+            <div class="row2">
+                <li>
+                    <img src="imgs/main2.png" onclick="slider2()" alt="">
+                </li>
+            </div>
+            <div class="row3">
+                <li>
+                    <img src="imgs/main3.png" onclick="slider3() " alt="">
+                </li>
+            </div>
+        </div>
         <div class="home-img">
-            <img src="imgs/product1.png" alt="" class="one">
+           <img src="imgs/product1.png" alt="" class="one"> 
         </div>
         <div class="home-text">
             <h1>Wireless <br> Headphones</h1>
@@ -43,22 +60,30 @@
         </div>
     </section>
 
-    <div class="main">
-        <div class="row">
-            <li>
-                <img src="imgs/main1.png" onclick="slider('product1.png')" alt="">
-            </li>
-        </div>
-        <div class="row2">
-            <li>
-                <img src="imgs/main2.png" onclick="slider('product2.png')" alt="">
-            </li>
-        </div>
-        <div class="row3">
-            <li>
-                <img src="imgs/main3.png" onclick="slider('product3.png')" alt="">
-            </li>
-        </div>
-    </div>
+    <script>
+        const homeImg=document.querySelector('.home-img')
+        function slider1(){
+            homeImg.innerHTML=''
+            const img=document.createElement('img')
+            img.setAttribute('class','one')
+            img.setAttribute('src','imgs/product1.png')
+            homeImg.appendChild(img)
+        }
+        function slider2(){
+            homeImg.innerHTML=''
+            const img=document.createElement('img')
+            img.setAttribute('class','one')
+            img.setAttribute('src','imgs/product2.png')
+            homeImg.appendChild(img)
+        }
+        function slider3(){
+            homeImg.innerHTML=''
+            const img=document.createElement('img')
+            img.setAttribute('class','one')
+            img.setAttribute('src','imgs/product3.png')
+            homeImg.appendChild(img)
+        }
+    </script>
+
 </body>
 </html>
