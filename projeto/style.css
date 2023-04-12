@@ -147,21 +147,21 @@ header{
     cursor: pointer;
 }
 .row:hover{
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 }
 .row2{
     background-color: #ff758d;
     border-radius: 100%;
     width: 60px;
     height: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
 .row2:hover{
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 }
 .row3{
     background-color: #ffd06d;
@@ -175,5 +175,5 @@ header{
     transform: translateY(-8px);
 }
 .row3:hover{
-    transform: translateY(-8px);
+    transform: translateY( -5px);
 }
