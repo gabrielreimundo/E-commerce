@@ -6,14 +6,6 @@
     text-decoration: none;
     list-style: none;
 }
-:root{
-    --bg-color: var(--bg-color) #101113;
-    --tex-color: #fff;
-    --main-color: #34e7f8;
-    --other-color:#fcfcfc;
-    --h1-font: 4rem;
-    --pfont: 1rem;
-}
 body{
     background-color: #101113; 
     color: #fff;
@@ -82,10 +74,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2rem; */
 }
 
 .home-text h1{
